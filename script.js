@@ -126,10 +126,10 @@ function matchInputNumber() {
   const matchdigits = (num1, num2) => {
     let tempFormedNumber = num2.split(""); // Convert to array for easy removal
     let matchNum = 0;
-    for (let i = 0; i < num1.length; i++) { 
-      // Check the all number index of inputNumber in FormedNumber 
+    for (let i = 0; i < num1.length; i++) {
+      // Check the all number index of inputNumber in FormedNumber
       let index = tempFormedNumber.indexOf(num1[i]);
-      // If index found in FormedNumber
+      // If number found in FormedNumber
       if (index !== -1) {
         matchNum++;
         tempFormedNumber.splice(index, 1); // Remove the matched digit to avoid redundant
