@@ -13,9 +13,11 @@ include('config.php');
 </head>
 
 <body>
-    <h2>Enter a 5-digit number:</h2>
+    <h2>Enter 5-digit number:</h2>
     <input type="text" id="inputNumber" maxlength="5" />
     <button id="startCollection">Start Collection</button>
+    
+    <div id="timer" class="timer">05:00</div>
     <div id="runningNumber"></div>
     <div id="results"></div>
 

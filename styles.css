@@ -17,6 +17,7 @@ h2 {
 
 input[type="text"] {
     font-size: 18px;
+    letter-spacing: 4px;
     padding: 5px;
     margin-bottom: 20px;
     width: 100%;
@@ -62,6 +63,22 @@ button:hover {
     max-width: 500px;
     text-align: center;
 }
+
+.timer {
+    display: inline-block;
+    font-size: 2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    background-color: #e6f7ff;
+    padding: 5px;
+    border-radius: 12px;
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+}
+
 
 /* Mobile responsive adjustments */
 @media (max-width: 600px) {
